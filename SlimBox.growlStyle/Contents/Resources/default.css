@@ -5,9 +5,8 @@ body {
 
 .wrap {
 	position: relative;
-	width: 320px;
+	width: 300px;
 	font-family: 'Lucida Sans', 'Lucida Grande', Lucida, sans-serif;
-	color: rgba(255,255,255,0.95);
 	text-shadow: rgba(0,0,0,1) 0 -1px 0;
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.3)), color-stop(33%,rgba(0,0,0,0.7)), color-stop(34%,rgba(0,0,0,0.8)), color-stop(98%,rgba(0,0,0,0.95)), color-stop(100%,rgba(0,0,0,1)));
 	border: 1px solid rgba(0,0,0,0.5); 
@@ -35,15 +34,17 @@ body {
 }
 
 .title {
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: bold;
 	margin-left:48px;
+	color: rgba(255,255,255,1);
 }
 
 .text {
-	font-size: 12px;
+	font-size: 11px;
 	font-weight: normal;
 	margin-left:48px;
+	color: rgba(255,255,255,0.8);
 }
 
 @-webkit-keyframes grow {
