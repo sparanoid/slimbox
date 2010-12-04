@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleName</key>
+	<string>SlimBox</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleGetInfoString</key>
@@ -12,8 +14,6 @@
 	<string>com.Growl.WebKit.SlimBox</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
-	<key>CFBundleName</key>
-	<string>SlimBox</string>
 	<key>CFBundlePackageType</key>
 	<string>GWKS</string>
 	<key>CFBundleShortVersionString</key>
@@ -24,9 +24,13 @@
 	<string>1.1</string>
 	<key>CSResourcesFileMapped</key>
 	<true/>
-	<key>GrowlHasShadow</key>
-	<true/>
 	<key>GrowlPluginAuthor</key>
 	<string>Sparanoid</string>
+	<key>GrowlHasShadow</key>
+	<true/>
+	<key>GrowPaddingX</key>
+	<string></string>
+	<key>GrowPaddingY</key>
+	<string></string>
 </dict>
 </plist>
